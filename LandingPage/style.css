@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://www.digitshack.com/codepen/mentor1/pattern-background-desktop.svg);
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width:410px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    max-height: 100vh;
+}
+.text-content{
+    padding: 20px;
+    text-align: center;
+}
+#title{
+
+    font-weight:700;
+    color: hsl(223, 47%, 23%);
+}
+#subtitle{
+    margin:20px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+.payment-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    align-items: center;
+}
+
+.payement-box-left{
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.payement-box-left div{
+    margin-left: 10px;
+    color: hsl(224, 23%, 55%);
+}
+#heading{
+    color:hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+.change{
+    color:hsl(223, 47%, 23%);
+    font-weight: 700;
+    transition: color .3s ease;
+}
+.change:hover{
+    text-decoration: none;
+   
+
+}
+.buttons{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#ptp{
+   padding: 20px;
+   border-radius: 15px;
+   margin-bottom: 20px;
+   border:none;
+   background-color:hsl(245, 75%, 52%) ;
+   color:white;
+  font-size: 16px;
+  transition: color .3s ease;
+}
+#ptp:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+
+#order{
+    border:none;
+    background-color: white;
+    font-weight:900;
+    padding-bottom: 20px;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    transition: color .3s ease;
+    font-size: 16px;
+}
+#order:hover{
+    color: hsl(223, 47%, 23%);
+}
